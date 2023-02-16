@@ -1,0 +1,20 @@
+//TO PRINTF THE FACTORS OF A GIVEN NUMBER
+#include<stdio.h>
+#include<conio.h>
+main()
+{
+	int a,n;
+	printf("enter a number");
+	scanf("%d",&n);
+	a=1;
+	while(a<=n)
+	{
+		if(n%a==0)
+		{
+		printf("%d  ",a);
+		}
+	a++;
+	}
+	a++;
+	getch();
+}
